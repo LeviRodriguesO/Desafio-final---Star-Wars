@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+}
+
+main{
+    background-color: white;
+}
+
+.fundo{
+    background-image: url("Imagens/star\ uó\ topo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.StarWars{
+    display: flex;
+    width: 70rem;
+    justify-content:space-between;
+    z-index: 1;
+    position: relative;
+    top: 54%;
+    left: 14%;
+}
+
+.Titulo1{
+    width: 70%;
+}
+
+.Kaylo{
+    position: relative;
+    width: 60%;
+    left: 10%;
+    bottom: 10%;
+    z-index: 2;
+
+}
+
+.Legiao{
+    position: relative;
+    width: 9%;
+    bottom: 24%;
+    left: 10%;
+}
+
+#secao1{
+    background-image: url("Imagens/robô.png");
+    background-size:46%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vw;
+  
+}
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    width: 93%;
+    height: 30vw;
+    position: relative;
+    left: 5%;
+}
+
+.InfoJogo{
+    height: 50%;
+}
+
+.Download{
+    height: 120%;
+    position: relative;
+    z-index: 3;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 7rem;
+    padding-top:4rem ;
+    display: flex;
+    left: 5vw;
+    top: 5rem;
+
+}
+
+.horizontal{
+    display: flex;
+    justify-content: flex-start;
+    width: 90vw;
+}
+
+.Estrutura{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 15rem;
+}
+
+.selecao{
+    position: relative;
+    bottom: 12rem;
+    height: 25rem;
+}
+
+.Sith{
+    position: relative;
+    left: 23%;
+    width: 60%;
+}
+
+.Rey{
+    width: 30%;
+}
+
+#secao2{
+    background-color: #2D2D2D;
+    height: 140vw;
+}
+
+.CaixaAtributos{
+    position: relative;
+    padding-left: 6%;
+    top: 8%;
+
+}
+
+.Atributos{
+    width: 20%;
+}
+
+.Galeria{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80rem;
+    margin-left: 2rem;
+}
+
+.ItemGaleria{
+    position: relative;
+}
+
+.ItemGaleria .imgGaleria{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Graficos{
+    position: relative;
+    width: 25%;
+    top: 11%;
+    left: 49%;
+    z-index: 5;
+}
+
+.h-1{
+    grid-row: span 1;
+}
+
+.h-2{
+    grid-row: span 2;
+}
+
+.w-1{
+    grid-column: span 1;
+}
+
+.w-2{
+    grid-column: span 2;
+}
+
+.HierarquiaGrupo{
+    width: 80rem;
+    margin-left: 2rem;
+}
+
+.Hierarquia{
+ width: 100%;
+ margin-top: 4%;
+}
+
+.DireitosGrupo{
+    display: flex;
+    justify-content: flex-end;
+    width: 97%;
+}
+
+.Direitos{
+    width: 45%;
+}
+
+.ComoSelecao{
+    width: 100%;
+    margin-top: 10%;
+    padding-left:39%;
+}
+
+.Como{
+    width:40%;
+}
+
+footer{
+    background-color: white;
+    height: 100%;
+}
+
+.OpcoesItens{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    bottom: 20rem;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Storm{
+    width: 40%;
+}
+
+.opcoes{
+    width: 65%;
+}
+
+.opcoes2{
+    width: 35%;
+    margin-top: 5%;
+}
+
+#FooterInfo{
+    background-color: #FF5A56;
+    display: flex;
+    justify-content: center;
+    height: 60vw;
+    width: 65vw;
+}
+
+.Footer{
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 55%;
+    list-style: none;
+}
+
+.Titulo2{
+    height: 13%;
+}
+
+.Info1{
+    height: 13%;
+}
+
+.Aplicativos{
+    height: 14%;
+}
+
+.Linhas{
+    height: 7%;
+}
+
+.Logo{
+    height: 20%;
+}
+
+.Darth{
+    position: relative;
+    left: 10%;
+    bottom: 12%;
+    height: 95%;
+}
