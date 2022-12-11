@@ -27,16 +27,22 @@ main{
 
 .StarWars{
     display: flex;
-    width: 70rem;
+    border: solid red;
+    width: 100%;
     justify-content:space-between;
     z-index: 1;
     position: relative;
     top: 54%;
-    left: 14%;
 }
 
-.Titulo1{
-    width: 70%;
+.TituloStar{
+    width: 25%;
+    margin-left: 14%;
+}
+
+.TituloWars{
+    width: 25%;
+    margin-right: 17%;
 }
 
 .Kaylo{
@@ -50,8 +56,8 @@ main{
 
 .Legiao{
     position: relative;
-    width: 9%;
-    bottom: 24%;
+    width: 8%;
+    bottom: 30%;
     left: 10%;
 }
 
@@ -72,6 +78,7 @@ main{
     height: 30vw;
     position: relative;
     left: 5%;
+    border: solid red;
 }
 
 .InfoJogo{
@@ -106,21 +113,21 @@ main{
 .Estrutura{
     display: flex;
     width: 100%;
-    justify-content: center;
     align-items: flex-end;
-    padding-right: 15rem;
+    padding-right: 16rem;
+    border: solid red;
 }
 
 .selecao{
     position: relative;
-    bottom: 12rem;
-    height: 25rem;
+    width: 40%;
+    margin-bottom: 15%;
 }
 
 .Sith{
     position: relative;
-    left: 23%;
     width: 60%;
+    left: 20%;
 }
 
 .Rey{
@@ -129,7 +136,7 @@ main{
 
 #secao2{
     background-color: #2D2D2D;
-    height: 140vw;
+    height: 130vw;
 }
 
 .CaixaAtributos{
@@ -140,14 +147,16 @@ main{
 }
 
 .Atributos{
-    width: 20%;
+    width: 15%;
+    margin-left: 10%;
 }
 
 .Galeria{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    width: 80rem;
-    margin-left: 2rem;
+    width: 85%;
+    margin-left: 7%;
+    border: solid red;
 }
 
 .ItemGaleria{
@@ -162,7 +171,7 @@ main{
 
 .Graficos{
     position: relative;
-    width: 25%;
+    width: 22%;
     top: 11%;
     left: 49%;
     z-index: 5;
@@ -185,8 +194,8 @@ main{
 }
 
 .HierarquiaGrupo{
-    width: 80rem;
-    margin-left: 2rem;
+    width: 85%;
+    margin-left: 7%;
 }
 
 .Hierarquia{
@@ -197,7 +206,7 @@ main{
 .DireitosGrupo{
     display: flex;
     justify-content: flex-end;
-    width: 97%;
+    width: 92%;
 }
 
 .Direitos{
@@ -224,7 +233,7 @@ footer{
     align-items: flex-end;
     justify-content: space-around;
     position: relative;
-    bottom: 20rem;
+    bottom: 15rem;
 }
 
 span{
@@ -234,7 +243,7 @@ span{
 }
 
 .Storm{
-    width: 40%;
+    width: 35%;
 }
 
 .opcoes{
@@ -247,24 +256,30 @@ span{
 }
 
 #FooterInfo{
-    background-color: #FF5A56;
+    border: solid green;
+    margin-right: 30%;
+    width: 100%;
+}
+
+.pose{
     display: flex;
-    justify-content: center;
-    height: 60vw;
-    width: 65vw;
 }
 
 .Footer{
+    background-color: #FF5A56;
     height: 60vw;
+    width: 90%;
+    margin-right: 35%;
+    padding-left: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 55%;
     list-style: none;
+    border: solid blue;
 }
 
 .Titulo2{
-    height: 13%;
+    height: 9%;
 }
 
 .Info1{
@@ -272,20 +287,47 @@ span{
 }
 
 .Aplicativos{
-    height: 14%;
+    height: 11%;
 }
 
 .Linhas{
-    height: 7%;
+    height: 9%;
 }
 
 .Logo{
-    height: 20%;
+    height: 18%;
+}
+
+.T2{
+    width: 33%;
+}
+
+.In1{
+    width: 63%;
+}
+
+.apk1{
+    width: 33%;
+}
+
+.apk2{
+    width: 33%;
+}
+
+.li{
+    width: 67%;
+}
+
+.lo{
+    width: 30%;
+}
+
+.In2{
+    width: 63%;
 }
 
 .Darth{
+    width: 20%;
+    border: solid red;
     position: relative;
-    left: 10%;
-    bottom: 12%;
-    height: 95%;
 }
