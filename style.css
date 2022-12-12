@@ -78,7 +78,6 @@ main{
     height: 30vw;
     position: relative;
     left: 5%;
-    border: solid red;
 }
 
 .InfoJogo{
@@ -115,7 +114,6 @@ main{
     width: 100%;
     align-items: flex-end;
     padding-right: 16rem;
-    border: solid red;
 }
 
 .selecao{
@@ -156,7 +154,6 @@ main{
     grid-template-columns: repeat(4,1fr);
     width: 85%;
     margin-left: 7%;
-    border: solid red;
 }
 
 .ItemGaleria{
