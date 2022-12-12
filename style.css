@@ -256,7 +256,7 @@ span{
 }
 
 #FooterInfo{
-    border: solid green;
+
     margin-right: 30%;
     width: 100%;
 }
@@ -267,15 +267,13 @@ span{
 
 .Footer{
     background-color: #FF5A56;
-    height: 60vw;
+    height: 50vw;
     width: 90%;
-    margin-right: 35%;
     padding-left: 15%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style: none;
-    border: solid blue;
 }
 
 .Titulo2{
@@ -327,7 +325,7 @@ span{
 }
 
 .Darth{
-    width: 20%;
-    border: solid red;
+    width: 40%;
     position: relative;
+    right: 10%;
 }
